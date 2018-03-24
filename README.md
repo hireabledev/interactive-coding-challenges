@@ -3,16 +3,10 @@
   <img src="https://raw.githubusercontent.com/donnemartin/interactive-coding-challenges/master/images/cover_challenge.gif">
 </p>
 
-## April 2017 - Huge Update!
-
-**Overhauled** to now include **120 challenges and solutions** and added [Anki Flash Cards](#anki-flashcards-coding-and-design).
-
-Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
-
 interactive-coding-challenges
 ============
 
-**Continually updated, interactive and test-driven coding challenges**.
+**120+ continually updated, interactive, and test-driven coding challenges**, with [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Challenges focus on **algorithms** and **data structures** found in **coding interviews**.
 
@@ -30,6 +24,8 @@ Notebooks also detail:
 * Test cases
 * Algorithms
 * Big-O time and space complexities
+
+Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
 
 ## Challenge Solutions
 
@@ -63,9 +59,9 @@ Looking for resources to help you prep for the **System Design** and **Object-Or
 
 Check out the sister repo [The System Design Primer](https://github.com/donnemartin/system-design-primer), which contains additional Anki decks:
 
-* [System design deck](resources/flash_cards/System%20Design.apkg)
-* [System design exercises deck](resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Object oriented design exercises deck](resources/flash_cards/OO%20Design.apkg)
+* [System design deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design.apkg)
+* [System design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/blob/master/resources/flash_cards/OO%20Design.apkg)
 
 ![](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
 
@@ -232,7 +228,7 @@ Unit tested, fully functional implementations of the following algorithms:
 | Delete a node in the middle of a linked list | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/delete_mid/delete_mid_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/delete_mid/delete_mid_solution.ipynb) |
 | Partition a linked list around a given value | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/partition/partition_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/partition/partition_solution.ipynb) |
 | Add two numbers whose digits are stored in a linked list | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/add_reverse/add_reverse_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/add_reverse/add_reverse_solution.ipynb) |
-| Find the start of a linked list loop | [Challenge]()│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/find_loop_start/find_loop_start_solution.ipynb) |
+| Find the start of a linked list loop | [Challenge](http://nbviewer.jupyter.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/find_loop_start/find_loop_start_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/find_loop_start/find_loop_start_solution.ipynb) |
 | Determine if a linked list is a palindrome | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/palindrome/palindrome_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/palindrome/palindrome_solution.ipynb) |
 | Implement a linked list | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/linked_list/linked_list_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/linked_lists/linked_list/linked_list_solution.ipynb) |
 | Determine if a list is cyclic or acyclic | [Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md)│[Contribute](https://github.com/donnemartin/interactive-coding-challenges/blob/master/CONTRIBUTING.md) |
@@ -331,7 +327,7 @@ Unit tested, fully functional implementations of the following algorithms:
 | Implement fibonacci recursively, dynamically, and iteratively | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_solution.ipynb) |
 | Maximize items placed in a knapsack | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_solution.ipynb) |
 | Maximize unbounded items placed in a knapsack | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb) |
-| Find the longest common substring | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_substring/longest_common_substr_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_substring/longest_common_substr_solution.ipynb) |
+| Find the longest common subsequence | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_subsequence/longest_common_subseq_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_subsequence/longest_common_subseq_solution.ipynb) |
 | Find the longest increasing subsequence | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_inc_subseq/longest_inc_subseq_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_inc_subseq/longest_inc_subseq_solution.ipynb) |
 | Minimize the cost of matrix multiplication | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/matrix_mult/find_min_cost_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/matrix_mult/find_min_cost_solution.ipynb) |
 | Maximize stock prices given k transactions | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/max_profit_k/max_profit_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/max_profit_k/max_profit_solution.ipynb) |
@@ -443,7 +439,7 @@ interactive-coding-challenges        # Repo
 ├─ ...
 ```
 
-<i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
+<i>\*The notebooks (.ipynb) read/write the associated unit test (.py) file.</i>
 
 
 ## Notebook Installation
@@ -572,6 +568,8 @@ Feel free to contact me to discuss any issues, questions, or comments.
 My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
 
     Copyright 2015 Donne Martin
 
